@@ -147,22 +147,25 @@ header nav a:hover {
     background-repeat: no-repeat;
     border-radius: 5px;
     margin: 45px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal i {
     display: inline-block;
     font-size: 70px;
-    margin: 22% 46%;
     cursor: pointer;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .modal span {
-    float: right;
     font-size: 45px;
     color: black;
     margin-right: 2%;
-    margin-top: 1%;
     cursor: pointer;
+    margin-bottom: 750px;
 }
 
 .modal span:hover {
